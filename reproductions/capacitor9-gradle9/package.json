@@ -1,0 +1,10 @@
+{
+  "name": "capawesome-capacitor9-gradle9-reproduction",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "9.0.0-rc.0",
+    "@capacitor/core": "9.0.0-rc.0",
+    "@capacitor-firebase/crashlytics": "8.6.0",
+    "@capacitor-mlkit/barcode-scanning": "8.2.2"
+  }
+}

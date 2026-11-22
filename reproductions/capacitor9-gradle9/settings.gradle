@@ -1,0 +1,5 @@
+rootProject.name = 'capawesome-capacitor9-gradle9-reproduction'
+include ':capacitor-android', ':crashlytics', ':barcode-scanning'
+project(':capacitor-android').projectDir = file('node_modules/@capacitor/android/capacitor')
+project(':crashlytics').projectDir = file('node_modules/@capacitor-firebase/crashlytics/android')
+project(':barcode-scanning').projectDir = file('node_modules/@capacitor-mlkit/barcode-scanning/android')
